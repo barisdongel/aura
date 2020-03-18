@@ -13,6 +13,15 @@
         "name":"GDG[x]",
         "link":"https://github.com/gdg-x",
         "img":"gdg-x.svg"
+    },
+    {
+        "name":"ShiftDeleteNet",
+        "link":"https://shiftdelete.net/",
+        "img":"logo-sdn-png.png"
+    },
+    {
+        "name":"Webtekno",
+        "link":"https://www.webtekno.com/",
+        "img":"Webtekno_Logosu.png"
     }
-
 ]

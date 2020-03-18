@@ -1,56 +1,47 @@
-[
+[    
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Ali Osman Cibikdiken",
+        "designation":"Organizer | Chief Executive Officer at TrueFeedBackChain",
+        "twitter":"https://twitter.com/aocdiken",
+        "linkedin":"https://www.linkedin.com/in/ali-osman-cibikdiken/",
+        "github":"https://github.com/aocdiken",
+        "profileImage":"aliosman.jpeg",
+        "website":"http://www.aocdiken.com/"
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "Dilan Balcı",
+        "designation": "GDG Konya Co-Organizer & WTM Konya Lead",
+        "twitter": "https://twitter.com/hheybebek",
+        "linkedin": "https://www.linkedin.com/in/dilan-balci-51b6a9186/",
+        "github": "",
+        "profileImage": "dilan.jpeg",
+        "website": ""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "Merve Dündar",
+        "designation": "GDG Konya Co-Organizer & Social Media Manager",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/merve-dündar",
+        "github": "",
+        "profileImage": "merve.jpeg",
+        "website": ""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "Emre Aktürkoğlu",
+        "designation": "GDG Konya Co-Organizer & Graphic Team Leader",
+        "twitter": "https://twitter.com/e_akt",
+        "linkedin": "https://www.linkedin.com/in/emreakturkoglu",
+        "github": "",
+        "profileImage": "emre.jpeg",
+        "website": ""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name": "Doğukan Dinçer",
+        "designation": "GDG Konya Co – Organizer & Penetration Tester Expert",
+        "twitter": "https://twitter.com/d3ment0r_",
+        "linkedin": "https://www.linkedin.com/in/do%C4%9Fukan-d-242b76146/",
+        "github": "",
+        "profileImage": "dogukan.jpeg",
+        "website": ""
     }
 ]
