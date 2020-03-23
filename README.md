@@ -20,7 +20,7 @@ Bu şablon [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) takımı tarafınd
 | **Hızlı ve optimize** | PWA on Lighthouse |
 | **Offline Çalıştırılabilir** | Offline çalışabilir. |
 | **Mobil uyumlu** | Mobo Friendly Web app can be installed as a native app on your phone |
-| **SEO öptimizasyonu** | index all content and get to the top in search results |
+| **SEO optimizasyonu** | index all content and get to the top in search results |
 | **Yönetimi kolay** | keep and update all information in the JSON File |
 
 
