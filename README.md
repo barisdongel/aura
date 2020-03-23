@@ -2,55 +2,53 @@
 [![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/1444-shield.svg)](https://madewithvuejs.com/p/aura/shield-link)
 [![Build Status](https://travis-ci.org/gdg-x/aura.svg?branch=master)](https://travis-ci.org/gdg-x/aura)
 
-<img width="100%" src="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/promotion%20images/Aura%20v1.0.3.png">
+<img width="100%" src="https://i.hizliresim.com/qlqn50.png">
 
-Standard Web App for GDG's Communties. <br>
+GDGler için standart web uygulaması. <br>
 [Demo](https://aura-client-master.firebaseapp.com/) <br>
 Version: 1.0.6
 
-### Show some :heart: and star the repo to support the project
+## Genel Bakış
 
-## Overview
+Aura GDG'ler için standart olarak oluşturulmuş, birkaç dakika içinde kurulabilen bir Web şablonu.
 
-Aura is the website template that helps you to set GDG's Communities website with events, team and  management in a few minutes.
+Bu şablon [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) takımı tarafından hazırlanmıştır. GDG Konya ekibi olarak da kurulumu Türkçeleştirilmiştir.
 
-The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) team experience of running meetups/events.
-
-## Features
-| Feature | Description |
+## Özellikleri
+| Özellik | Açıklama |
 |---|---|
-| **Fast and optimized** | PWA on Lighthouse |
-| **Works offline** | Can work offline |
-| **Mobile first** | Mobo Friendly Web app can be installed as a native app on your phone |
-| **SEO optimized** | index all content and get to the top in search results |
-| **Easy in management** | keep and update all information in the JSON File |
+| **Hızlı ve optimize** | PWA on Lighthouse |
+| **Offline Çalıştırılabilir** | Offline çalışabilir. |
+| **Mobil uyumlu** | Mobo Friendly Web app can be installed as a native app on your phone |
+| **SEO öptimizasyonu** | index all content and get to the top in search results |
+| **Yönetimi kolay** | keep and update all information in the JSON File |
 
 
-## Getting Started
-1. [Fork repository](https://github.com/Vrijraj/aura/fork) and clone it locally
-1. Install project dependencies: `npm install` 
-1. Replace the `urlname` Field (`CHAPTER_URL_NAME`)  [here](/src/config/key.js)
-1. Compiles and hot-reloads for development: `npm run serve`
-1. Update `Meta Tag`, `Title Tag` and [Google Analytics Code](https://analytics.google.com/analytics/web/#/) from [Basic Info](/public/index.html), [manifest.json](/public/manifest.json) and [Resources](/src/assets/data)
-1. For the production: `npm run build` and then one dir will be created `dist`
-1. For testing: `npm run test`
+## Başlangıç
+1. Projeyi forklayın (https://github.com/barisdongel/aura) ve bilgisayarınıza indirin.
+1. Proje bağımlılıklarını indirin. Projenizin olduğu dizinde bir komut satırı çalıştırın ve: `npm install` 
+1. `urlname` Alan adını (`CHAPTER_URL_NAME`)  [here](/src/config/key.js) ve Chapter url name kısmını projede ki dosyalardan düzenleyin.
+1. Projenizi localhost'da çalıştırmak isterseniz konsola: `npm run serve` yazın.
+1. `Meta Tag`, `Title Tag` ve [Google Analytics Code](https://analytics.google.com/analytics/web/#/) Bu kısımları projenizde ki index.html dosyasından düzenleyin. [Basic Info](/public/index.html), [manifest.json](/public/manifest.json) ve [Resources](/src/assets/data)
+1. Değişikliklerin kayıt olması yani projenizin üretilmesi için: `npm run build`.
+1. Test etmek için: `npm run test`
 
-## Deploy on Firebase
+## Firebase Hosting'e Gönderme
 
-1. Setup Environment for the Firebase deployment
-   * Install Firebase CLI: `npm i -g firebase-tools`
-1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
-1. Open Terminal/CMD/Powershell in your dir.
-1. Now type `firebase login` command in your Terminal/CMD/Powershell.
-1. Type `firebase init`.
-1. Select the project by using the arrow keys.
-1. Then Select the `Firebase Hosting` by using Spacebar and arrow key.
-1. Click `No` for Single page web app.
-1. Type `dist`.
-1. Some by default file will be created successfully.
-1. Run locally
-   * `firebase serve` or `npm run serve`
-1. Update Firebase.json file
+1. Firebase dağıtımı için Kurulum:
+   *Firebase CLI'yı yükleyin: `npm i -g firebase-tools`
+1. Bir firebase hesabı oluşturun. [Firebase account](https://console.firebase.google.com) ve giriş yapın [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
+1. terminali açın /CMD/Powershell in your dir.
+1. Şimdi `firebase login` yazın ve açılan pencerede kullanmak istediğiniz firebase hesabınızı seçip (İzin Ver) diyin.
+1. `firebase init` yazın.
+1. Ok tuşlarını kullanarak projeyi seçin.
+1. Daha sonra `Hosting` butonunun üzerine gelip SPACE basın. Hosting seçili olduğunda ENTER.
+1. “What do you want to use as your public directory? (public)” diye bir soru gelicek. `dist`. yazın
+1. Gelen sorulara `No` diyin. (for Single page web app.)
+1. Varsayılan olarak dosyalar başarıyla oluşturulacaktır.
+1. Local'de çalıştırın
+   * `firebase serve` ya da `npm run serve`
+1. Firebase.json dosyası
     ```js
         {
             "hosting": {
@@ -67,34 +65,8 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
             }
         }
     ```
-1. Build and deploy
-   * `firebase deploy` or `npm run deploy`
-
-## Deploy on Netlify
-1. On Netlify, setup up a new project from GitHub with the following settings:
-
-    - **Build Command:** `npm run build` or `yarn build`
-    - **Publish directory:** `dist`
-
-2. Hit the deploy button!
-
-Also checkout [vue-cli-plugin-netlify-lambda](https://github.com/netlify/vue-cli-plugin-netlify-lambda).
-
-In order to receive direct hits using `history mode` on Vue Router, you need to create a file called `_redirects` under `/public` with the following content:
-
-```
-# Netlify settings for single-page application
-/*    /index.html   200
-```
-
-More information on [Netlify redirects documentation](https://www.netlify.com/docs/redirects/#history-pushstate-and-single-page-apps).
-
-### Run your tests
-1. For Test: `npm run test`
-
-
-### Lints and fixes files
-1. For Lints and Fixes files: `npm run lint`
+1. Tamamlanması ve Deploy edilmesi
+   * `firebase deploy` yazarak sitenizin Firebase Hosting'e deploy edilmesini sağlayın. Ve bitti...
 
 ### Documentation
 1. The [Getting Started guide](#getting-started) is probably a good first point of call! <br>
